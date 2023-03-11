@@ -99,9 +99,10 @@ export const ContactForm = () => {
         {/* //! button with old style */}
         {/* <Button type="submit">Add contact</Button> */}
 
-        <button class="custom-btn btn-7">
+        <button className="custom-btn btn-7">
           <span>Add contact</span>
         </button>
+        <div className="hr-line"></div>
       </FormStyle>
     </Formik>
   );

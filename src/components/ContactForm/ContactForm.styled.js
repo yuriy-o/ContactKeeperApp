@@ -69,3 +69,7 @@ export const Error = styled(ErrorMessage)`
   color: red;
   margin-bottom: 5px;
 `;
+// export const Hr = styled.hr`
+//   width: 120%;
+//   text-align: center;
+// `;

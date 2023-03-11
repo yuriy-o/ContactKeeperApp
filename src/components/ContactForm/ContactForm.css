@@ -87,3 +87,12 @@
 .btn-7 span:hover:after {
   width: 100%;
 }
+.hr-line {
+  border: 0;
+  height: 2px;
+  background-color: #3a7999;
+  margin: 20px 0;
+  width: 500px;
+  text-align: center;
+  margin-left: -50px;
+}
