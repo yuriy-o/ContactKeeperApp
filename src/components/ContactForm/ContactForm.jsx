@@ -8,7 +8,7 @@ import { nanoidUA } from 'components/additions/nanoidUA';
 import './ContactForm.css';
 
 import {
-  Button,
+  // Button,
   FormStyle,
   Span,
   Input,
@@ -96,7 +96,9 @@ export const ContactForm = () => {
           <Error component="span" name="phone" />
         </Label>
 
-        <Button type="submit">Add contact</Button>
+        {/* //! button with old style */}
+        {/* <Button type="submit">Add contact</Button> */}
+
         <button class="custom-btn btn-7">
           <span>Add contact</span>
         </button>
