@@ -5,15 +5,16 @@ import * as Yup from 'yup';
 import { addContact } from 'redux/operations';
 import { getContacts } from 'redux/selectors';
 import { nanoidUA } from 'components/additions/nanoidUA';
+import './ContactForm.css';
 
 import {
   Button,
   FormStyle,
-  Label,
   Span,
   Input,
   Error,
   InputMaskWrapper,
+  Label,
 } from './ContactForm.styled';
 
 const Schema = Yup.object().shape({
@@ -96,6 +97,9 @@ export const ContactForm = () => {
         </Label>
 
         <Button type="submit">Add contact</Button>
+        <button class="custom-btn btn-7">
+          <span>Add contact</span>
+        </button>
       </FormStyle>
     </Formik>
   );
