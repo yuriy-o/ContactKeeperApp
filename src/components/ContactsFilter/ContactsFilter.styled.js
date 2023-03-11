@@ -17,7 +17,7 @@ export const Text = styled.p`
 `;
 export const Input = styled.input`
   margin-bottom: 10px;
-  width: 97%;
+  width: 100%;
   height: 30px;
   font-size: 20px;
 
@@ -25,4 +25,9 @@ export const Input = styled.input`
     font-size: 14px;
     font-style: italic;
   }
+`;
+export const H2 = styled.h2`
+  color: #3a7999;
+  margin-bottom: 15px;
+  text-align: center;
 `;

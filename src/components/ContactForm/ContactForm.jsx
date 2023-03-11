@@ -15,6 +15,7 @@ import {
   Error,
   InputMaskWrapper,
   Label,
+  Hr,
 } from './ContactForm.styled';
 
 const Schema = Yup.object().shape({
@@ -99,10 +100,10 @@ export const ContactForm = () => {
         {/* //! button with old style */}
         {/* <Button type="submit">Add contact</Button> */}
 
-        <button className="custom-btn btn-7">
+        <button className="custom-btn-7 btn-7">
           <span>Add contact</span>
         </button>
-        <div className="hr-line"></div>
+        <Hr></Hr>
       </FormStyle>
     </Formik>
   );

@@ -23,14 +23,17 @@ export const App = () => {
   return (
     <>
       <Container>
-        <H1>Phonebook</H1>
+        <H1>Contact Manager</H1>
         <ContactForm />
-        <H2>Contacts</H2>
+
+        <H2>Contacts filter</H2>
         <ContactsFilter />
         {isLoading && !error && <p>Request in progress...</p>}
         {isLoading && !error && <PacmanLoader color="#3a7999" />}
         <ContactList />
       </Container>
+
+      <H2>Contacts</H2>
       <ToastContainer
         position="top-right"
         autoClose={1500}

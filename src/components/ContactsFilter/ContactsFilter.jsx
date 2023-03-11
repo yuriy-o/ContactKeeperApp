@@ -1,3 +1,4 @@
+import { Hr } from 'components/ContactForm/ContactForm.styled';
 import React, { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { filterChange } from 'redux/phonebookSlice';
@@ -16,16 +17,19 @@ export const ContactsFilter = React.memo(() => {
   );
 
   return (
-    <Label>
-      <Text>Find contacts by name</Text>
-      <Input
-        type="text"
-        name="filter"
-        value={filter}
-        onChange={onFilterChange}
-        placeholder="Enter a name to search for"
-        required
-      />
-    </Label>
+    <>
+      <Label>
+        <Text>Find contacts by name</Text>
+        <Input
+          type="text"
+          name="filter"
+          value={filter}
+          onChange={onFilterChange}
+          placeholder="Enter a name to search for"
+          required
+        />
+      </Label>
+      <Hr></Hr>
+    </>
   );
 });
