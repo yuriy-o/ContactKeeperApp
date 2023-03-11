@@ -73,8 +73,9 @@ export const Hr = styled.div`
   border: 0;
   height: 2px;
   background-color: #3a7999;
-  margin: 20px 0;
   width: 600px;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
   margin-left: -50px;
 `;

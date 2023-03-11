@@ -28,6 +28,6 @@ export const Input = styled.input`
 `;
 export const H2 = styled.h2`
   color: #3a7999;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
   text-align: center;
 `;

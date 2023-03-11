@@ -15,7 +15,7 @@ export const H1 = styled.h1`
 `;
 export const H2 = styled.h2`
   color: #3a7999;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 `;
 export const Warning = styled.p`
   font-size: 20px;

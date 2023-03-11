@@ -28,12 +28,13 @@ export const App = () => {
 
         <H2>Contacts filter</H2>
         <ContactsFilter />
+
+        <H2>Contacts</H2>
         {isLoading && !error && <p>Request in progress...</p>}
         {isLoading && !error && <PacmanLoader color="#3a7999" />}
         <ContactList />
       </Container>
 
-      <H2>Contacts</H2>
       <ToastContainer
         position="top-right"
         autoClose={1500}

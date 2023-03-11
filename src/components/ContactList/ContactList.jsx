@@ -37,25 +37,27 @@ const Contact = ({ contact, onDeleteContact }) => {
   const { id, name, phone } = contact;
 
   return (
-    <Li>
-      <GridWrapper>
-        <Name>{name}:</Name>
-        <Number>{phone}</Number>
-      </GridWrapper>
+    <>
+      <Li>
+        <GridWrapper>
+          <Name>{name}:</Name>
+          <Number>{phone}</Number>
+        </GridWrapper>
 
-      {/* old style button */}
-      {/* <Button onClick={() => onDeleteContact(id)} type="button">
+        {/* old style button */}
+        {/* <Button onClick={() => onDeleteContact(id)} type="button">
         Delete
       </Button> */}
 
-      <button
-        class="btn-delete btn-rotating"
-        onClick={() => onDeleteContact(id)}
-        type="button"
-      >
-        <span>Are you sure?</span>
-        <span>Delete</span>
-      </button>
-    </Li>
+        <button
+          className="btn-delete btn-rotating"
+          onClick={() => onDeleteContact(id)}
+          type="button"
+        >
+          <span>Are you sure?</span>
+          <span>Delete</span>
+        </button>
+      </Li>
+    </>
   );
 };
