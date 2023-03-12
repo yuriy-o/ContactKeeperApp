@@ -1,13 +1,13 @@
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/operations';
-import { getContacts, getFilter } from 'redux/selectors';
+import { deleteContact } from 'redux/contacts/operations';
+import { selectContacts, getFilter } from 'redux/contacts/selectors';
 
 import { GridWrapper, Li, Name, Number } from './ContactList.styled';
 import './ContactList.css';
 
 export const ContactList = () => {
   const dispatch = useDispatch();
-  const contacts = useSelector(getContacts);
+  const contacts = useSelector(selectContacts);
   const filter = useSelector(getFilter);
 
   const normalizedFilter = filter.toLowerCase();

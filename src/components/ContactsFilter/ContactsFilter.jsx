@@ -1,9 +1,9 @@
-import { Hr } from 'components/ContactForm/ContactForm.styled';
 import React, { useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { filterChange } from 'redux/phonebookSlice';
-import { getFilter } from 'redux/selectors';
+import { setFilter } from 'redux/contacts/filterSlice';
+import { getFilter } from 'redux/contacts/selectors';
 import { Input, Label, Text } from './ContactsFilter.styled';
+import { Hr } from 'components/ContactForm/ContactForm.styled';
 
 export const ContactsFilter = React.memo(() => {
   const dispatch = useDispatch();
@@ -11,7 +11,7 @@ export const ContactsFilter = React.memo(() => {
 
   const onFilterChange = useCallback(
     e => {
-      dispatch(filterChange(e.currentTarget.value));
+      dispatch(setFilter(e.target.value));
     },
     [dispatch]
   );
