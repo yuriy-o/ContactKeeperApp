@@ -12,20 +12,8 @@ const LoginPage = lazy(() => import('../pages/LoginPage'));
 const RegisterPage = lazy(() => import('../pages/RegisterPage'));
 const ContactsPage = lazy(() => import('../pages/ContactsPage'));
 
-// import PacmanLoader from 'react-spinners/PacmanLoader';
-// import { ToastContainer } from 'react-toastify';
-
-// import { ContactForm } from './ContactForm/ContactForm';
-// import { ContactList } from './ContactList/ContactList';
-// import { ContactsFilter } from './ContactsFilter/ContactsFilter';
-// import { selectError, selectIsLoading } from '../redux/contacts/selectors';
-
-// import { Container, H1, H2 } from './App.styled';
-
 export const App = () => {
   const dispatch = useDispatch();
-  // const isLoading = useSelector(selectIsLoading);
-  // const error = useSelector(selectError);
   const isRefreshing = useSelector(selectIsRefreshing);
 
   useEffect(() => {
@@ -37,6 +25,7 @@ export const App = () => {
   ) : (
     <Routes>
       <Route path="/" element={<SharedLayout />}>
+        {/* <Route index element={<HomePage />} /> */}
         <Route
           index
           element={
@@ -45,14 +34,7 @@ export const App = () => {
             </PublicRoute>
           }
         />
-        <Route
-          path="login"
-          element={
-            <PublicRoute restricted>
-              <LoginPage />
-            </PublicRoute>
-          }
-        />
+
         <Route
           path="registration"
           element={
@@ -61,6 +43,16 @@ export const App = () => {
             </PublicRoute>
           }
         />
+
+        <Route
+          path="login"
+          element={
+            <PublicRoute restricted>
+              <LoginPage />
+            </PublicRoute>
+          }
+        />
+
         <Route
           path="contacts"
           element={
