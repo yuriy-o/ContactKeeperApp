@@ -26,6 +26,8 @@ export const register = createAsyncThunk(
       setAuthHeader(response.data.token);
       return response.data;
     } catch (error) {
+      console.log('error - register', error);
+      console.log('error.message - register', error.message);
       return thunkAPI.rejectWithValue(error.message);
     }
   }
@@ -44,6 +46,8 @@ export const logIn = createAsyncThunk(
       setAuthHeader(response.data.token);
       return response.data;
     } catch (error) {
+      console.log('error - logIn', error);
+      console.log('error.message - logIn', error.message);
       return thunkAPI.rejectWithValue(error.message);
     }
   }
@@ -59,6 +63,8 @@ export const logOut = createAsyncThunk('auth/logout', async (_, thunkAPI) => {
     // After a successful logout, remove the token from the HTTP header
     clearAuthHeader();
   } catch (error) {
+    console.log('error - logOut', error);
+    console.log('error.message - logOut', error.message);
     return thunkAPI.rejectWithValue(error.message);
   }
 });
@@ -85,6 +91,8 @@ export const refreshUser = createAsyncThunk(
       const response = await axios.get('/users/current');
       return response.data;
     } catch (error) {
+      console.log('error - refreshUser', error);
+      console.log('error.message - refreshUser', error.message);
       return thunkAPI.rejectWithValue(error.message);
     }
   }
