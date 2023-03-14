@@ -4,29 +4,26 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const notifyParams = {
   position: 'top-right',
-  autoClose: 2000,
+  autoClose: 5000,
   hideProgressBar: false,
   closeOnClick: true,
   pauseOnHover: true,
   draggable: true,
   progress: undefined,
-  theme: 'light',
+  theme: 'colored',
 };
 
 export const notifyContactsCount = (itemsLength = null) => {
   itemsLength === 0
-    ? toast.success(
-        'Your contact book is empty, add your contacts.',
-        notifyParams
-      )
-    : toast.success(`You have ${itemsLength} contacts!`, notifyParams);
+    ? toast.info('Your contact book is empty, add your contacts.', notifyParams)
+    : toast.info(`You have ${itemsLength} contacts!`, notifyParams);
 };
 
 export const notifyDeleteContactSuccess = () =>
-  toast.success('Contact deleted!', notifyParams);
+  toast.warn('❌ Contact deleted!', notifyParams);
 
 export const notifyAddContactSuccess = () =>
-  toast.success('🦄 Contact created!', notifyParams);
+  toast.info('👍🏼 Contact created!', notifyParams);
 
 export const notifyError = () =>
   toast.error('Oops, something went wrong, try again.', notifyParams);
@@ -36,7 +33,7 @@ export default function Notification() {
     <>
       <ToastContainer
         position="top-right"
-        autoClose={2000}
+        autoClose={5000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
@@ -44,7 +41,7 @@ export default function Notification() {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-        theme="light"
+        theme="colored"
       />
     </>
   );
