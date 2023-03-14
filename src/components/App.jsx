@@ -36,7 +36,7 @@ export const App = () => {
         />
 
         <Route
-          path="registration"
+          path="register"
           element={
             <PublicRoute restricted>
               <RegisterPage />
@@ -64,33 +64,5 @@ export const App = () => {
         <Route path="*" element={<HomePage />} />
       </Route>
     </Routes>
-
-    // <>
-    //   <Container>
-    //     <H1>Contact Manager</H1>
-    //     <ContactForm />
-
-    //     <H2>Contacts filter</H2>
-    //     <ContactsFilter />
-
-    //     <H2>Contacts</H2>
-    //     {isLoading && !error && <p>Request in progress...</p>}
-    //     {isLoading && !error && <PacmanLoader color="#3a7999" />}
-    //     <ContactList />
-    //   </Container>
-
-    //   <ToastContainer
-    //     position="top-right"
-    //     autoClose={1500}
-    //     hideProgressBar={false}
-    //     newestOnTop={false}
-    //     closeOnClick
-    //     rtl={false}
-    //     pauseOnFocusLoss
-    //     draggable
-    //     pauseOnHover
-    //     theme="light"
-    //   />
-    // </>
   );
 };

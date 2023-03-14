@@ -5,7 +5,7 @@ const setActive = ({ isActive }) => (isActive ? ' active' : '');
 
 export const AuthNav = () => {
   return (
-    <div className="container">
+    <div>
       <NavLink to="/register" className={setActive}>
         Register
       </NavLink>
