@@ -18,7 +18,7 @@ const ContactsPage = () => {
   }, [dispatch]);
 
   return (
-    <main sx={{ bgcolor: 'background.default' }}>
+    <main sx={{ bgcolor: '#f00' }}>
       <Box>
         <h1>Phonebook</h1>
         <ContactForm />
