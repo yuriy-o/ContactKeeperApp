@@ -1,7 +1,10 @@
 import styled from 'styled-components';
 
 export const Header = styled.header`
-  width: 1200px;
+  max-width: 1200px;
+  padding-left: 16px;
+  padding-right: 16px;
+
   margin: 5px auto 25px auto;
 
   display: flex;
