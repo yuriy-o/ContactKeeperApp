@@ -2,7 +2,7 @@ import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 
 import { Form, H2, Input, Label, Text } from './LoginForm.styled';
-// import './LoginForm.css';
+import './LoginForm.css';
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
@@ -24,7 +24,7 @@ export const LoginForm = () => {
     <Form onSubmit={handleSubmit} autoComplete="off">
       <H2>Sign in here</H2>
       <Label>
-        <Text>Email (cvbnmn@df.df)</Text>
+        <Text>Email (email-login@gmail.com)</Text>
         <Input type="email" name="email" placeholder="Enter your e-mail" />
       </Label>
       <Label>
@@ -36,7 +36,7 @@ export const LoginForm = () => {
         />
       </Label>
 
-      <button type="submit" className="btn__logout btn">
+      <button type="submit" className="btn__login btn">
         <span>Sign in</span>
       </button>
     </Form>

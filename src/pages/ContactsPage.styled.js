@@ -1,26 +1,23 @@
 import styled from 'styled-components';
 
-// del
-export const Box = styled.div`
+export const Container = styled.section`
   border-radius: 10px;
-  box-shadow: 0 0 10px teal;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 20px auto;
-  padding: 20px;
+  padding: 20px 50px;
   text-align: center;
   max-width: 500px;
+`;
 
-  // del
-  h1,
-  h2 {
-    color: teal;
-  }
-
-  // del
-  div {
-    box-shadow: rgb(34 60 80 / 20%) 0px 5px 10px 2px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
+export const H1 = styled.h1`
+  color: #3a7999;
+  margin-bottom: 15px;
+`;
+export const H2 = styled.h2`
+  color: #3a7999;
+  margin-bottom: 15px;
+`;
+export const Warning = styled.p`
+  font-size: 20px;
+  color: orangered;
 `;

@@ -15,17 +15,27 @@ export const fetchContacts = createAsyncThunk(
       } catch (error) {
         return thunkAPI.rejectWithValue(error.message);
       }
-      // return;
-      // return thunkAPI.rejectWithValue('Stop fetch contacts');
     }
   }
 );
 
+// export const addContact = createAsyncThunk(
+//   'contacts/addContact',
+//   async (contact, thunkAPI) => {
+//     try {
+//       const response = await axios.post('/contacts', contact);
+//       return response.data;
+//     } catch (error) {
+//       return thunkAPI.rejectWithValue(error.message);
+//     }
+//   }
+// );
+
 export const addContact = createAsyncThunk(
-  'contacts/addContact',
-  async (contact, thunkAPI) => {
+  'items/addContact',
+  async ({ name, number, id }, thunkAPI) => {
     try {
-      const response = await axios.post('/contacts', contact);
+      const response = await axios.post('/contacts', { name, number, id });
       return response.data;
     } catch (error) {
       return thunkAPI.rejectWithValue(error.message);

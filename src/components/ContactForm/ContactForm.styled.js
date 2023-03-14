@@ -43,28 +43,6 @@ export const InputMaskWrapper = styled(ReactInputMask)`
   }
 `;
 
-//! button with old style
-// export const Button = styled.button`
-//   display: block;
-//   min-width: 150px;
-//   height: 40px;
-
-//   border: none;
-//   background: #3a7999;
-//   color: #f2f2f2;
-//   padding: 10px 20px;
-//   font-size: 20px;
-//   border-radius: 5px;
-//   cursor: pointer;
-//   transition: all 500ms ease;
-
-//   :hover {
-//     background: rgba(0, 0, 0, 0);
-//     color: #3a7999;
-//     box-shadow: inset 0 0 0 3px #3a7999;
-//     transform: scale(1.05);
-//   }
-// `;
 export const Error = styled(ErrorMessage)`
   color: red;
   margin-bottom: 5px;

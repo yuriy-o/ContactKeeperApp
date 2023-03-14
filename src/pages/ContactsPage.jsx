@@ -6,7 +6,7 @@ import { selectIsLoading, selectError } from 'redux/contacts/selectors';
 import { ContactForm } from 'components/ContactForm/ContactForm';
 import { ContactList } from 'components/ContactList/ContactList';
 import { ContactsFilter } from 'components/ContactsFilter/ContactsFilter';
-import { Box } from './ContactsPage.styled';
+import { Container, H1, H2 } from './ContactsPage.styled';
 
 const ContactsPage = () => {
   const dispatch = useDispatch();
@@ -18,17 +18,17 @@ const ContactsPage = () => {
   }, [dispatch]);
 
   return (
-    <main sx={{ bgcolor: '#f00' }}>
-      <Box>
-        <h1>Phonebook</h1>
+    <main>
+      <Container>
+        <H1>Phonebook</H1>
         <ContactForm />
-        <h2>Contacts</h2>
+        <H2>Contacts</H2>
         <div>
           <ContactsFilter />
           {isLoading && !error && <b>Request in progress...</b>}
           <ContactList />
         </div>
-      </Box>
+      </Container>
     </main>
   );
 };
