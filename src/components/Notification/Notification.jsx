@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 
 const notifyParams = {
   position: 'top-right',
-  autoClose: 5000,
+  autoClose: 2000,
   hideProgressBar: false,
   closeOnClick: true,
   pauseOnHover: true,
@@ -33,7 +33,7 @@ export default function Notification() {
     <>
       <ToastContainer
         position="top-right"
-        autoClose={5000}
+        autoClose={2000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
