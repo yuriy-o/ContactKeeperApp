@@ -18,7 +18,7 @@ import {
 
 const Schema = Yup.object().shape({
   name: Yup.string()
-    .max(15)
+    .max(25)
     .matches(
       /^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$/,
       "Name may contain only letters, apostrophe, dash and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan"
@@ -98,7 +98,6 @@ export const ContactForm = () => {
         <button className="add-btn btn-7" type="submit">
           <span>Add contact</span>
         </button>
-        {/* <Hr></Hr> */}
       </FormStyle>
     </Formik>
   );
