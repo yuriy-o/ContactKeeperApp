@@ -6,6 +6,8 @@ import { selectIsRefreshing } from 'redux/auth/selectors';
 import SharedLayout from './SharedLayout/SharedLayout';
 import { PublicRoute } from './Routes/PublicRoute';
 import { PrivateRoute } from './Routes/PrivateRoute';
+import PacmanLoader from 'react-spinners/PacmanLoader';
+import { Div } from './App.styled';
 
 const HomePage = lazy(() => import('../pages/HomePage'));
 const LoginPage = lazy(() => import('../pages/LoginPage'));
@@ -21,7 +23,10 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    <b>Refreshing user...</b>
+    <Div>
+      <PacmanLoader color="#3a7999" />
+      <b style={{ fontSize: 22, color: '#3a7999' }}>Refreshing user...</b>
+    </Div>
   ) : (
     <Routes>
       <Route path="/" element={<SharedLayout />}>
