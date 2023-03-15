@@ -8,7 +8,6 @@ import { nanoidUA } from 'components/additions/nanoidUA';
 import './ContactForm.css';
 
 import {
-  // Button,
   FormStyle,
   Span,
   Input,
