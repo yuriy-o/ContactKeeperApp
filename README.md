@@ -1,3 +1,3 @@
-# Homework 08 → Contact book
+# Contact book App
 
 ![Creating repo from a template step 1](./assets/08.jpg)

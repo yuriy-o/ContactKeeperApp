@@ -34,14 +34,14 @@ export const ContactList = () => {
 };
 
 const Contact = ({ contact, onDeleteContact }) => {
-  const { id, name, phone } = contact;
+  const { id, name, number } = contact;
 
   return (
     <>
       <Li>
         <GridWrapper>
           <Name>{name}:</Name>
-          <Number>{phone}</Number>
+          <Number>{number}</Number>
         </GridWrapper>
 
         {/* old style button */}
