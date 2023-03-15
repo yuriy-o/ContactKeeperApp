@@ -44,11 +44,6 @@ const Contact = ({ contact, onDeleteContact }) => {
           <Number>{number}</Number>
         </GridWrapper>
 
-        {/* old style button */}
-        {/* <Button onClick={() => onDeleteContact(id)} type="button">
-        Delete
-      </Button> */}
-
         <button
           className="btn-delete btn-rotating"
           onClick={() => onDeleteContact(id)}
