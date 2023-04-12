@@ -1,10 +1,10 @@
-import './Home.css';
+import "./Home.css";
 
 export const Home = () => {
   return (
     <div className="home__container">
       <p className="home__description">
-        Вітаю! Презентую мій Пет-проекту «Contact book»!
+        Вітаю! Презентую мій Пет-проекту «ContactKeeper»!
       </p>
       <p className="home__description">
         Тут ви зможете зробити список контактів для різних потреб: від бізнесу
@@ -24,7 +24,7 @@ export const Home = () => {
         контакт, який вам потрібен.
       </p>
       <p className="home__description">
-        Ми віримо, що наш Пет-проект «Contact book» допоможе вам розширити ваші
+        Ми віримо, що наш Пет-проект «ContactKeeper» допоможе вам розширити ваші
         можливості та забезпечити зв'язок з тими, хто може допомогти вам у вашій
         роботі та житті. Не соромтеся звертатися до нашої телефонної книги та
         знайти нові можливості!

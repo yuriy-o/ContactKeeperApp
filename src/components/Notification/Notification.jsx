@@ -1,32 +1,35 @@
-import { ToastContainer } from 'react-toastify';
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from "react-toastify";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const notifyParams = {
-  position: 'top-right',
+  position: "top-right",
   autoClose: 2000,
   hideProgressBar: false,
   closeOnClick: true,
   pauseOnHover: true,
   draggable: true,
   progress: undefined,
-  theme: 'colored',
+  theme: "colored",
 };
 
 export const notifyContactsCount = (itemsLength = null) => {
   itemsLength === 0
-    ? toast.info('Your contact book is empty, add your contacts.', notifyParams)
+    ? toast.info(
+        "Your ContactKeeper is empty, add your contacts.",
+        notifyParams
+      )
     : toast.info(`You have ${itemsLength} contacts!`, notifyParams);
 };
 
 export const notifyDeleteContactSuccess = () =>
-  toast.warn('❌ Contact deleted!', notifyParams);
+  toast.warn("❌ Contact deleted!", notifyParams);
 
 export const notifyAddContactSuccess = () =>
-  toast.info('👍🏼 Contact created!', notifyParams);
+  toast.info("👍🏼 Contact created!", notifyParams);
 
 export const notifyError = () =>
-  toast.error('Oops, something went wrong, try again.', notifyParams);
+  toast.error("Oops, something went wrong, try again.", notifyParams);
 
 export default function Notification() {
   return (
