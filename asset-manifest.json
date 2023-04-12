@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/react-hw-08-ContactKeeper/static/css/main.33977e13.css",
-    "main.js": "/react-hw-08-ContactKeeper/static/js/main.d704a5bb.js",
+    "main.js": "/react-hw-08-ContactKeeper/static/js/main.31c09c59.js",
     "static/css/815.0f26e386.chunk.css": "/react-hw-08-ContactKeeper/static/css/815.0f26e386.chunk.css",
-    "static/js/815.0feaffbc.chunk.js": "/react-hw-08-ContactKeeper/static/js/815.0feaffbc.chunk.js",
+    "static/js/815.23565982.chunk.js": "/react-hw-08-ContactKeeper/static/js/815.23565982.chunk.js",
     "static/css/255.7ac61b3c.chunk.css": "/react-hw-08-ContactKeeper/static/css/255.7ac61b3c.chunk.css",
     "static/js/255.10c8ac61.chunk.js": "/react-hw-08-ContactKeeper/static/js/255.10c8ac61.chunk.js",
     "static/css/631.551f3630.chunk.css": "/react-hw-08-ContactKeeper/static/css/631.551f3630.chunk.css",
@@ -13,9 +13,9 @@
     "static/js/817.5c3af233.chunk.js": "/react-hw-08-ContactKeeper/static/js/817.5c3af233.chunk.js",
     "index.html": "/react-hw-08-ContactKeeper/index.html",
     "main.33977e13.css.map": "/react-hw-08-ContactKeeper/static/css/main.33977e13.css.map",
-    "main.d704a5bb.js.map": "/react-hw-08-ContactKeeper/static/js/main.d704a5bb.js.map",
+    "main.31c09c59.js.map": "/react-hw-08-ContactKeeper/static/js/main.31c09c59.js.map",
     "815.0f26e386.chunk.css.map": "/react-hw-08-ContactKeeper/static/css/815.0f26e386.chunk.css.map",
-    "815.0feaffbc.chunk.js.map": "/react-hw-08-ContactKeeper/static/js/815.0feaffbc.chunk.js.map",
+    "815.23565982.chunk.js.map": "/react-hw-08-ContactKeeper/static/js/815.23565982.chunk.js.map",
     "255.7ac61b3c.chunk.css.map": "/react-hw-08-ContactKeeper/static/css/255.7ac61b3c.chunk.css.map",
     "255.10c8ac61.chunk.js.map": "/react-hw-08-ContactKeeper/static/js/255.10c8ac61.chunk.js.map",
     "631.551f3630.chunk.css.map": "/react-hw-08-ContactKeeper/static/css/631.551f3630.chunk.css.map",
@@ -26,6 +26,6 @@
   },
   "entrypoints": [
     "static/css/main.33977e13.css",
-    "static/js/main.d704a5bb.js"
+    "static/js/main.31c09c59.js"
   ]
 }
