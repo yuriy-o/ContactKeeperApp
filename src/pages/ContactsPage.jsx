@@ -22,7 +22,7 @@ const ContactsPage = () => {
   return (
     <main>
       <Container>
-        <H1>ContactKeeper</H1>
+        <H1>ContactKeeperApp</H1>
         <ContactForm />
         <H2>Contacts</H2>
         <div>

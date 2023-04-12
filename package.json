@@ -1,8 +1,8 @@
 {
-  "name": "react-hw-08-ContactKeeper",
+  "name": "ContactKeeperApp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yuriy-o.github.io/react-hw-08-ContactKeeper/",
+  "homepage": "https://yuriy-o.github.io/ContactKeeperApp/",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@testing-library/jest-dom": "^5.16.3",
