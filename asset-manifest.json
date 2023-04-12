@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ContactKeeperApp/static/css/main.33977e13.css",
-    "main.js": "/ContactKeeperApp/static/js/main.af693fbf.js",
+    "main.js": "/ContactKeeperApp/static/js/main.60b875c7.js",
     "static/css/815.0f26e386.chunk.css": "/ContactKeeperApp/static/css/815.0f26e386.chunk.css",
     "static/js/815.a8d86b9f.chunk.js": "/ContactKeeperApp/static/js/815.a8d86b9f.chunk.js",
     "static/css/255.7ac61b3c.chunk.css": "/ContactKeeperApp/static/css/255.7ac61b3c.chunk.css",
@@ -9,11 +9,11 @@
     "static/css/631.551f3630.chunk.css": "/ContactKeeperApp/static/css/631.551f3630.chunk.css",
     "static/js/631.9691bceb.chunk.js": "/ContactKeeperApp/static/js/631.9691bceb.chunk.js",
     "static/css/84.b37666e2.chunk.css": "/ContactKeeperApp/static/css/84.b37666e2.chunk.css",
-    "static/js/84.695c67c5.chunk.js": "/ContactKeeperApp/static/js/84.695c67c5.chunk.js",
+    "static/js/84.d516d3ff.chunk.js": "/ContactKeeperApp/static/js/84.d516d3ff.chunk.js",
     "static/js/817.d7cb1c89.chunk.js": "/ContactKeeperApp/static/js/817.d7cb1c89.chunk.js",
     "index.html": "/ContactKeeperApp/index.html",
     "main.33977e13.css.map": "/ContactKeeperApp/static/css/main.33977e13.css.map",
-    "main.af693fbf.js.map": "/ContactKeeperApp/static/js/main.af693fbf.js.map",
+    "main.60b875c7.js.map": "/ContactKeeperApp/static/js/main.60b875c7.js.map",
     "815.0f26e386.chunk.css.map": "/ContactKeeperApp/static/css/815.0f26e386.chunk.css.map",
     "815.a8d86b9f.chunk.js.map": "/ContactKeeperApp/static/js/815.a8d86b9f.chunk.js.map",
     "255.7ac61b3c.chunk.css.map": "/ContactKeeperApp/static/css/255.7ac61b3c.chunk.css.map",
@@ -21,11 +21,11 @@
     "631.551f3630.chunk.css.map": "/ContactKeeperApp/static/css/631.551f3630.chunk.css.map",
     "631.9691bceb.chunk.js.map": "/ContactKeeperApp/static/js/631.9691bceb.chunk.js.map",
     "84.b37666e2.chunk.css.map": "/ContactKeeperApp/static/css/84.b37666e2.chunk.css.map",
-    "84.695c67c5.chunk.js.map": "/ContactKeeperApp/static/js/84.695c67c5.chunk.js.map",
+    "84.d516d3ff.chunk.js.map": "/ContactKeeperApp/static/js/84.d516d3ff.chunk.js.map",
     "817.d7cb1c89.chunk.js.map": "/ContactKeeperApp/static/js/817.d7cb1c89.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.33977e13.css",
-    "static/js/main.af693fbf.js"
+    "static/js/main.60b875c7.js"
   ]
 }
